@@ -2,6 +2,7 @@ import json
 import os
 from groq import Groq
 from netmiko import ConnectHandler
+from dotenv import load_dotenv
 
 load_dotenv()
 
